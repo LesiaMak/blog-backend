@@ -27,7 +27,7 @@
             <div class="flex-fill" style="margin-right: 30px;">
               <div class="card blog__slide text-center">
                 <div class="blog__slide__img">
-                  <img class="card-img rounded-0" src="{{ post.image_url}}" alt="">
+                  <img class="card-img rounded-0" src="{{ post.image_url}}" alt="Image">
                 </div>
                 <div class="blog__slide__content">
                   <h3><a href="#">{{ post.title }}</a></h3>
@@ -45,9 +45,9 @@
               <div class="single-recent-blog-post">
                 <div class="thumb">
                 {% if post.image_url %}    
-                  <img class="img-fluid" src="{{ post.image_url}}" alt="">
+                  <img class="img-fluid" src="{{ post.image_url}}" alt="Image">
                 {% else %} 
-                  <img class="img-fluid" src="{% static 'img/banner/blog.png' %}" alt="">   
+                  <img class="img-fluid" src="{% static 'img/banner/blog.png' %}" alt="Image">   
                 {% endif %}  
                   <ul class="thumb-info" style="max-width: 550px;">
                     <li><a href="#"><i class="ti-user"></i>{{ post.author }}</a></li>
@@ -111,9 +111,9 @@
               </div>
             </div>
             <!-- End Blog Post Siddebar -->
-          </div>
-        </div>
-      </section>
+         </div>
+       </div>
+     </section>
       <!--================ End Blog Post Area =================-->
     </main>
 
@@ -157,29 +157,29 @@
             </div>
           </div>
           <div class="col-lg-3  col-md-6 col-sm-6">
-          </div>
-          <div class="col-lg-2 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>Follow Us</h6>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="single-footer-widget">
+            <h6>Follow Us</h6>
               <p>Let us be social</p>
-              <div class="footer-social d-flex align-items-center">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-dribbble"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-behance"></i>
-                </a>
+                <div class="footer-social d-flex align-items-center">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-dribbble"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-behance"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+          <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
           <p class="footer-text m-0">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
